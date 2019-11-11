@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+  font-family: merriweather, serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+nav {
+  background: #d05c2e;
+  color: #fff;
+  text-align: center;
+}
+
+nav .head {
+  display: inline-flex;
+}
+
+.head h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: .5em 0;
+}
+
+.head img {
+  width: 40px;
+}
+
+.nav a {
+  padding: .4rem 0;
+  font-size: 1.125rem;
+  text-decoration: none;
+  color: #fff;
+  border: 1pt #a63f38 solid;
+}
